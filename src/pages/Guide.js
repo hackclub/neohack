@@ -27,15 +27,9 @@ const Guide = () => {
             <div className="guide-step">
               <h3>Step 1: Set Up Your Development Environment</h3>
               <p>Install Neovim and create a Hackatime account to track your development time.</p>
-              <div className="code-block">
-                <code>{`# Install Neovim
-# macOS: brew install neovim
-# Ubuntu: sudo apt install neovim
-# Windows: choco install neovim`}</code>
-              </div>
               <p><strong>Hackatime Setup:</strong></p>
               <ol>
-                <li>Go to <a href="https://hackatime.com" target="_blank" rel="noopener noreferrer">hackatime.com</a></li>
+                <li>Go to <a href="https://hackatime.hackclub.com/" target="_blank" rel="noopener noreferrer">hackatime.hackclub.com/</a></li>
                 <li>Create an account</li>
                 <li>Install the Hackatime extension for your editor</li>
                 <li>Start tracking your development time</li>
@@ -44,32 +38,8 @@ const Guide = () => {
 
             <div className="guide-step">
               <h3>Step 2: Choose Your Plugin Idea</h3>
-              <p>Pick something that solves a problem or improves your workflow. Some ideas:</p>
+              <p>Pick something that <i>you</i> would truly use Some ideas:</p>
               <div className="idea-categories">
-                <div className="idea-category">
-                  <h4>Productivity</h4>
-                  <ul>
-                    <li>Code completion</li>
-                    <li>Snippets</li>
-                    <li>Project management</li>
-                  </ul>
-                </div>
-                <div className="idea-category">
-                  <h4>Language Support</h4>
-                  <ul>
-                    <li>Syntax highlighting</li>
-                    <li>LSP integration</li>
-                    <li>Language-specific tools</li>
-                  </ul>
-                </div>
-                <div className="idea-category">
-                  <h4>UI/UX</h4>
-                  <ul>
-                    <li>Status bars</li>
-                    <li>File explorers</li>
-                    <li>Themes</li>
-                  </ul>
-                </div>
                 <div className="idea-category">
                   <h4>Utility</h4>
                   <ul>

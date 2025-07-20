@@ -12,18 +12,21 @@ const About = () => {
             <div className="about-section">
               <h2>What is You Ship We Ship?</h2>
               <p>
-                You Ship We Ship (YSWS) is a unique program where you build something amazing and we reward you for it! 
+                You Ship We Ship (YSWS) is a program where you build something amazing and we reward you for it! 
                 In Neohack, you spend 5 hours building a plugin for Neovim, and in return, we send you a Neovim shirt.
               </p>
               <p>
                 It's simple: you ship (build) a Neovim plugin, and we ship (send) you a shirt. 
+              </p>
+              <p>
+                You can find other YSWS' at <a href='https://ysws.hackclub.com'>the website</a>
               </p>
             </div>
 
             <div className="about-section">
               <h2>Why Neovim Plugins?</h2>
               <p>
-                Neovim plugins can drastically change the way you use your neovim experience. No plugins can be useless even if you're a professional with the vim binds. That's why its importatnt to choose the right plugins. Making one that fits your needs is the perfect plugin!
+                Neovim plugins can drastically change the way you use neovim. No plugins can be useless even if you're a professional with the vim binds. That's why its importatnt to choose the right plugins. Making one that fits your needs is the perfect plugin!
               </p>
             </div>
 
