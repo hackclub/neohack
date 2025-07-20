@@ -38,115 +38,54 @@ const Guide = () => {
 
             <div className="guide-step">
               <h3>Step 2: Choose Your Plugin Idea</h3>
-              <p>Pick something that <i>you</i> would truly use Some ideas:</p>
+              <p>Pick something that <i>you</i> would truly use. Here are some ideas:</p>
               <div className="idea-categories">
                 <div className="idea-category">
-                  <h4>Utility</h4>
                   <ul>
-                    <li>Git integration</li>
-                    <li>Debugging tools</li>
-                    <li>Testing helpers</li>
+                    <li>Github Dashboard</li>
+                    <li>Youtube Player</li>
+                    <li>Spotify Controller</li>
                   </ul>
                 </div>
               </div>
               <p><strong>Getting Ideas:</strong></p>
               <ul>
                 <li>Look at existing plugins on <a href="https://github.com/rockerBOO/awesome-neovim" target="_blank" rel="noopener noreferrer">Neovim Awesome</a></li>
-                <li>Identify gaps in your own workflow</li>
+                <li>See whats missing and what might be fixed!</li>
                 <li>Browse GitHub issues for feature requests</li>
               </ul>
             </div>
 
             <div className="guide-step">
               <h3>Step 3: Start Development</h3>
-              <p>Create your plugin structure and start coding. Make sure to track your time on Hackatime!</p>
-              <div className="code-block">
-                <code>{`my-neovim-plugin/
-├── lua/my_plugin/
-│   ├── init.lua
-│   └── config.lua
-├── README.md
-├── LICENSE
-└── .gitignore`}</code>
-              </div>
-              <div className="code-block">
-                <code>{`-- lua/my_plugin/init.lua
-local M = {}
-
-function M.setup(opts)
-    -- Your plugin setup code here
-    local config = vim.tbl_deep_extend("force", {
-        -- Default options
-    }, opts or {})
-
-    -- Initialize your plugin
-end
-
-return M`}</code>
-              </div>
+              <p>Create your plugin structure and start coding. Make sure to track your time on Hackatime! A good way to get introduced to the Neovim API is by reading their <a href='https://neovim.io/doc/'>official documentation</a></p>
+              <p>If you need a guide on how to get started with project setup, I recommend you check out <a href='https://adam-drake-frontend-developer.medium.com/how-to-build-a-simple-neovim-plugin-0763e7593b07'>this</a> Medium post.</p>
             </div>
 
             <div className="guide-step">
               <h3>Step 4: Documentation Requirements</h3>
-              <p>Your README.md must include installation instructions for both Lazy.nvim and Packer:</p>
-              <div className="code-block">
-                <code>{`# My Neovim Plugin
-
-Brief description of what your plugin does.
-
-## Features
-
-- Feature 1
-- Feature 2
-- Feature 3
-
-## Installation
-
-### Lazy.nvim
-
-default_config = {
-    "your-username/my-neovim-plugin",
-    config = function()
-        require("my_plugin").setup()
-    end
-}
-
-### Packer
-
-use {
-    "your-username/my-neovim-plugin",
-    config = function()
-        require("my_plugin").setup()
-    end
-}
-
-## Configuration
-
-Describe configuration options here.
-
-## Usage
-
-Explain how to use your plugin.
-
-## Contributing
-
-How others can contribute to your plugin.`}</code>
-              </div>
+              <p>Your README.md must include installation instructions for both Lazy.nvim and Packer</p>
+              <p><a href='https://github.com/nvim-telescope/telescope.nvim'>Here</a> is a good example of what I expect a readme file to look like for Neohack. In doesn't have to be complicated, but here is what I expect:</p>
+              <ol>
+                <li>Clear statement of what your project does.</li>
+                <li>How to set up and install it for different package managers (think lazy.nvim, and packer).</li>
+                <li>A guide on what commands you have and what each one of them does.</li>
+                <li>Some images of videos of your project in action! (you can get permanent links using #cdn on the slack).</li>
+              </ol>
+              <p>You can do step 2 and 3 on a seperate static site for documentation by using github pages, vercel, or even Jekyll!</p>
+              <p><b>NOTE</b>:If you are going to make a website, please link it at the top of your README.md file and indicate that is the site for documentation!</p>
             </div>
 
             <div className="guide-step">
               <h3>Step 5: Time Tracking</h3>
               <p><strong>Using Hackatime:</strong></p>
               <ul>
-                <li>Start tracking when you begin development</li>
-                <li>Make sure to categorize your time as "Neovim Plugin Development"</li>
                 <li>Aim for at least 5 hours of focused development time</li>
-                <li>Take breaks but keep tracking active during development sessions</li>
               </ul>
               <p><strong>What Counts as Development Time:</strong></p>
               <div className="time-tracking">
                 <div className="counts">
-                  <h4>✅ Counts:</h4>
+                  <h4>Counts:</h4>
                   <ul>
                     <li>Writing Lua code</li>
                     <li>Testing your plugin</li>
@@ -155,7 +94,7 @@ How others can contribute to your plugin.`}</code>
                   </ul>
                 </div>
                 <div className="doesnt-count">
-                  <h4>❌ Doesn't Count:</h4>
+                  <h4>Doesn't Count:</h4>
                   <ul>
                     <li>Installing Neovim (setup time)</li>
                     <li>Learning Lua basics (should be done beforehand)</li>
@@ -168,19 +107,14 @@ How others can contribute to your plugin.`}</code>
               <h3>Step 6: Submission</h3>
               <p><strong>Before Submitting:</strong></p>
               <ul>
-                <li>✅ Plugin works correctly</li>
-                <li>✅ README.md is complete with both Lazy.nvim and Packer instructions</li>
-                <li>✅ At least 5 hours tracked on Hackatime</li>
-                <li>✅ Code is well-documented</li>
-                <li>✅ Plugin is published on GitHub</li>
+                <li>Plugin works correctly</li>
+                <li>README.md is complete with both installations for the most popular package managers</li>
+                <li>At least 5 hours tracked on Hackatime</li>
+                <li>Code is well-documented</li>
+                <li>Plugin is published on GitHub</li>
               </ul>
               <p><strong>Submission Process:</strong></p>
-              <ol>
-                <li>Create a GitHub repository for your plugin</li>
-                <li>Push your code with proper documentation</li>
-                <li>Submit your Hackatime report showing 5+ hours</li>
-                <li>Share your plugin link with the Neohack team</li>
-              </ol>
+              <p>Fill out <a href='https://youtu.be/xvFZjo5PgG0?si=bgt7up0JES4a6-m5'>this</a> fillout form (coming soon™)</p>
             </div>
 
             <div className="guide-section">
