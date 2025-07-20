@@ -45,10 +45,6 @@ const Home = () => {
                 <h3>Development Guide</h3>
                 <p>Step-by-step instructions to build your Neovim plugin.</p>
                 </Link>
-                <Link to="/gallery" className="quick-link-card">
-                <h3>Plugin Gallery</h3>
-                <p>See amazing plugins built by our community.</p>
-                </Link>
             </div>
             </div>
         </section>
