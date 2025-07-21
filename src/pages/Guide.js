@@ -24,6 +24,15 @@ const Guide = () => {
               </ul>
             </div>
 
+            <div className='guide-step'>
+                <h3>If you don't know any Lua, you can learn through the following resources!</h3>
+                <ol>
+                    <li><a href='https://www.tutorialspoint.com/lua/index.htm'>Tutorials Point</a></li>
+                    <li><a href='https://github.com/gridlocdev/lua-beginners-guide'>Lua Beginners Guide by Gridlocdev</a></li>
+                    <li><a href='https://www.lua.org/start.html#learning'>Official Documentation</a>. This one is a bit more complicated, but is amazing for getting started and goes in detail of every feature.</li>
+                </ol>
+            </div>
+
             <div className="guide-step">
               <h3>Step 1: Set Up Your Development Environment</h3>
               <p>Install Neovim and create a Hackatime account to track your development time.</p>
@@ -118,34 +127,19 @@ const Guide = () => {
             </div>
 
             <div className="guide-section">
-              <h2>Tips for Success</h2>
+              <h2>How <i>you</i> can build a successful Neohack project!</h2>
               <div className="tips-grid">
                 <div className="tip-card">
-                  <h4>Code Quality</h4>
-                  <ul>
-                    <li>Follow Lua best practices</li>
-                    <li>Use meaningful variable names</li>
-                    <li>Add comments for complex logic</li>
-                    <li>Handle errors gracefully</li>
-                  </ul>
+                    <p>Be transparent about ai usage! (mention how you used it in your readme!)</p>
                 </div>
                 <div className="tip-card">
-                  <h4>User Experience</h4>
-                  <ul>
-                    <li>Make your plugin easy to configure</li>
-                    <li>Provide sensible defaults</li>
-                    <li>Add helpful error messages</li>
-                    <li>Test with different Neovim configurations</li>
-                  </ul>
+                    <p>Talk about <i>why</i> you made your plugin! I would love to read it in the README.md file (yes I will actually read it if you write!)</p>
                 </div>
                 <div className="tip-card">
-                  <h4>Documentation</h4>
-                  <ul>
-                    <li>Write clear installation instructions</li>
-                    <li>Include usage examples</li>
-                    <li>Document all configuration options</li>
-                    <li>Add screenshots if applicable</li>
-                  </ul>
+                    <p>Make the most out of these 5 hours! The whole point of this ysws is that you ship a meaningful project that <i>you're truly proud of.</i></p>
+                </div>
+                <div className="tip-card">
+                    <p>DON'T COMMIT FRAUD!!! Hack Club is a non-profit, and their funds are limited! So keep that in mind.</p>
                 </div>
               </div>
             </div>
