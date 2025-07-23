@@ -7,7 +7,10 @@ const Home = () => {
         <section className="hero">
             <div className="hero-container">
             <div className="hero-content">
-                <h1 className="hero-title">Neohack</h1>
+                <h1 className="hero-title">
+                    Neohack
+                    <span className="hashtag-label">#neohack</span>
+                </h1>
                 <p className="hero-subtitle">A Neovim YSWS for Hack Club</p>
             </div>
             </div>
