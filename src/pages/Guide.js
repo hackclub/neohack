@@ -21,6 +21,7 @@ const Guide = () => {
                 <li>Neovim installed on your system</li>
                 <li>Basic knowledge of Lua (for plugin development)</li>
                 <li>Hackatime account for time tracking</li>
+                <li>Joined #neohack on the slack</li>
               </ul>
             </div>
 

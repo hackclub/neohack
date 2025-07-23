@@ -264,6 +264,7 @@ body.light-theme .footer {
     transform: translateY(-5px);
     box-shadow: 0 10px 30px rgba(255, 255, 255, 0.15);
     transition: box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1.5px solid rgba(255, 255, 255, 0.9);
 }
 
 .requirement-icon {
@@ -306,6 +307,7 @@ body.light-theme .footer {
     transform: translateY(-2px);
     box-shadow: 0 10px 30px rgba(255, 255, 255, 0.15);
     transition: box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1.5px solid rgba(255,255,255,0.9);
 }
 
 .guide-step h3 {
@@ -364,6 +366,7 @@ body.light-theme .footer {
     transform: translateY(-5px);
     box-shadow: 0 10px 30px rgba(255, 255, 255, 0.15);
     transition: box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1.5px solid rgba(255,255,255,0.9);
 }
 
 .plugin-card h3 {
@@ -497,6 +500,7 @@ body.light-theme .footer {
     transition: box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     text-decoration: none;
     color: inherit;
+    border: 1.5px solid rgba(255,255,255,0.9);
 }
 
 .quick-link-icon {
@@ -979,6 +983,7 @@ html {
   text-shadow: 0 2px 8px #000, 0 1px 0 #222;
   transition: background 0.3s, box-shadow 0.3s;
 }
+
 .hashtag-label:hover {
   background: #222;
   box-shadow: 0 4px 16px rgba(0,0,0,0.35);
