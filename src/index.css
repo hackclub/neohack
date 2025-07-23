@@ -988,3 +988,17 @@ html {
   background: #222;
   box-shadow: 0 4px 16px rgba(0,0,0,0.35);
 }
+
+a, .nav-link, .plugin-link {
+    color: #53a149;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #1174b1;
+    transition: color 0.2s;
+}
+
+a:hover, .nav-link:hover, .plugin-link:hover {
+    color: #6cff6a;
+    text-decoration-color: #1174b1;
+}

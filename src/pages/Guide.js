@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Guide = () => {
   return (
@@ -176,8 +175,7 @@ const Guide = () => {
 
             <div className="cta-section">
               <h2>Need Help?</h2>
-              <p>Don't hesitate to reach out to the Neohack team or the Neovim community.</p>
-              <Link to="/gallery" className="cta-button">View Community Plugins</Link>
+              <p>Don't hesitate to reach out to me (@kashsuks) or anyone on the #neohack Slack Channel!</p>
             </div>
           </div>
         </div>
