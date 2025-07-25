@@ -32,7 +32,7 @@ const Submit = () => {
                                         id={`check-${idx}`}
                                         checked={checked[idx]}
                                         onChange={() => handleCheck(idx)}
-                                        style={{width: 20, height: 20, marginRight: 12}}
+                                        className='checklist-checkbox'
                                     />
                                     <label htmlFor={`check-${idx}`} style={{ fontSize: '1.1rem', cursor: 'pointer' }}>{item}</label>
                                 </li>

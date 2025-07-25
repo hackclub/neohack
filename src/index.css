@@ -27,7 +27,7 @@
 }
 
 body {
-    font-family: 'Nunito', monospace;
+    font-family: 'Fira Code', monospace;
     line-height: 1.6;
     color: var(--text-primary);
     background-color: var(--primary-bg);
@@ -264,7 +264,7 @@ body.light-theme .footer {
     transform: translateY(-5px);
     box-shadow: 0 10px 30px rgba(255, 255, 255, 0.15);
     transition: box-shadow 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    border: 1.5px solid rgba(255, 255, 255, 0.9);
+    border: 1.5px solid rgba(255,255,255,0.9);
 }
 
 .requirement-icon {
@@ -903,6 +903,15 @@ body.light-theme .cta-section {
     border: 1px solid var(--light-border-color);
 }
 
+/* Checklist checkbox styling for Submit page */
+.checklist-checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  vertical-align: middle;
+  accent-color: var(--accent-green);
+}
+
 @media (max-width: 768px) {
     .nav-menu {
         display: none;
@@ -983,22 +992,20 @@ html {
   text-shadow: 0 2px 8px #000, 0 1px 0 #222;
   transition: background 0.3s, box-shadow 0.3s;
 }
-
 .hashtag-label:hover {
   background: #222;
   box-shadow: 0 4px 16px rgba(0,0,0,0.35);
 }
 
 a, .nav-link, .plugin-link {
-    color: #53a149;
-    text-decoration: underline;
-    text-underline-offset: 2px;
-    text-decoration-thickness: 2px;
-    text-decoration-color: #1174b1;
-    transition: color 0.2s;
+  color: #53a149;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #1174b1;
+  transition: color 0.2s;
 }
-
 a:hover, .nav-link:hover, .plugin-link:hover {
-    color: #6cff6a;
-    text-decoration-color: #1174b1;
+  color: #6cff6a;
+  text-decoration-color: #1174b1;
 }
