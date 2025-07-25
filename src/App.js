@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import About from './pages/About';
 import Guide from './pages/Guide';
+import Submit from './pages/Submit';
 import './App.css';
 
 function App(){
@@ -30,6 +31,7 @@ function App(){
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/guide" element={<Guide />} />
+            <Route path="/submit" element={<Submit />} />
             </Routes>
         </div>
         </Router>

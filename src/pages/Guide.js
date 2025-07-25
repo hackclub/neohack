@@ -112,20 +112,6 @@ const Guide = () => {
               </div>
             </div>
 
-            <div className="guide-step">
-              <h3>Step 6: Submission</h3>
-              <p><strong>Before Submitting:</strong></p>
-              <ul>
-                <li>Plugin works correctly</li>
-                <li>README.md is complete with both installations for the most popular package managers</li>
-                <li>At least 5 hours tracked on Hackatime</li>
-                <li>Code is well-documented</li>
-                <li>Plugin is published on GitHub</li>
-              </ul>
-              <p><strong>Submission Process:</strong></p>
-              <p>Fill out <a href='https://youtu.be/xvFZjo5PgG0?si=bgt7up0JES4a6-m5'>this</a> fillout form (coming soon™)</p>
-            </div>
-
             <div className="guide-section">
               <h2>How <i>you</i> can build a successful Neohack project!</h2>
               <div className="tips-grid">
@@ -176,6 +162,14 @@ const Guide = () => {
             <div className="cta-section">
               <h2>Need Help?</h2>
               <p>Don't hesitate to reach out to me (@kashsuks) or anyone on the #neohack Slack Channel!</p>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'space-between', margin: '2rem 2rem 2rem 2rem' }}>
+              <button type="button" className="nav-btn" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.75rem 1.5rem', borderRadius: '8px', fontWeight: 600, fontSize: '1rem', background: '#4f46e5', color: '#fff', border: 'none', boxShadow: '0 2px 8px rgba(0,0,0,0.08)', cursor: 'pointer', transition: 'background 0.2s' }} onClick={() => window.location.href='/about'}>
+                <span style={{ fontSize: '1.2em' }}>←</span> Back
+              </button>
+              <button type="button" className="nav-btn" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.75rem 1.5rem', borderRadius: '8px', fontWeight: 600, fontSize: '1rem', background: '#4f46e5', color: '#fff', border: 'none', boxShadow: '0 2px 8px rgba(0,0,0,0.08)', cursor: 'pointer', transition: 'background 0.2s' }} onClick={() => window.location.href='/submit'}>
+                Next <span style={{ fontSize: '1.2em' }}>→</span>
+              </button>
             </div>
           </div>
         </div>

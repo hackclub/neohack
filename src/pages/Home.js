@@ -36,6 +36,10 @@ const Home = () => {
             </div>
         </section>
 
+        <div style={{textAlign: 'center', margin: '2rem 0 0.5rem 0', fontWeight: 'bold', fontSize: '1.2rem'}}>
+          Wanna learn more about Neohack and how it works?
+        </div>
+
         <section className="quick-links-section">
             <div className="container">
             <h2 className="section-title">Get Started</h2>
@@ -51,6 +55,14 @@ const Home = () => {
             </div>
             </div>
         </section>
+
+        <div style={{ display: 'flex', justifyContent: 'flex-end', margin: '2rem 2rem 2rem 0' }}>
+          <button type="button" className="nav-btn" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.75rem 1.5rem', borderRadius: '8px', fontWeight: 600, fontSize: '1rem', background: '#4f46e5', color: '#fff', border: 'none', boxShadow: '0 2px 8px rgba(0,0,0,0.08)', cursor: 'pointer', transition: 'background 0.2s' }} onClick={() => window.location.href='/about'}>
+            Next <span style={{ fontSize: '1.2em' }}>→</span>
+          </button>
+        </div>
+
+        
         </main>
     );
 };

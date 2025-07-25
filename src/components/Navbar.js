@@ -35,6 +35,14 @@ const Navbar = ({ theme, toggleTheme }) => {
               Guide
             </Link>
           </li>
+          <li className="nav-item">
+            <Link 
+              to="/submit" 
+              className={`nav-link ${location.pathname === '/submit' ? 'active' : ''}`}
+            >
+              Submit
+            </Link>
+          </li>
         </ul>
         <div className="theme-toggle">
           <button onClick={toggleTheme} className="theme-btn">

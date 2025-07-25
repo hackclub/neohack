@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -55,14 +54,16 @@ const About = () => {
                 </div>
               </div>
             </div>
-
-            <div className="cta-section">
-              <h2>Ready to Get Started?</h2>
-              <p>Check out the development guide to learn how to build your first Neovim plugin.</p>
-              <Link to="/guide" className="cta-button">View Development Guide</Link>
-            </div>
           </div>
         </div>
+      </div>
+      <div style={{ display: 'flex', justifyContent: 'space-between', margin: '2rem 2rem 2rem 2rem' }}>
+        <button type="button" className="nav-btn" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.75rem 1.5rem', borderRadius: '8px', fontWeight: 600, fontSize: '1rem', background: '#4f46e5', color: '#fff', border: 'none', boxShadow: '0 2px 8px rgba(0,0,0,0.08)', cursor: 'pointer', transition: 'background 0.2s' }} onClick={() => window.location.href='/'}>
+          <span style={{ fontSize: '1.2em' }}>←</span> Back
+        </button>
+        <button type="button" className="nav-btn" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.75rem 1.5rem', borderRadius: '8px', fontWeight: 600, fontSize: '1rem', background: '#4f46e5', color: '#fff', border: 'none', boxShadow: '0 2px 8px rgba(0,0,0,0.08)', cursor: 'pointer', transition: 'background 0.2s' }} onClick={() => window.location.href='/guide'}>
+          Next <span style={{ fontSize: '1.2em' }}>→</span>
+        </button>
       </div>
     </main>
   );
