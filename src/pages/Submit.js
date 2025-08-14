@@ -42,7 +42,7 @@ const Submit = () => {
                             className='cta-button'
                             style={{marginTop: '2rem', opacity: allChecked ? 1 : 0.5, pointerEvents: allChecked ? 'auto' : 'none'}}
                             disabled={!allChecked}
-                            onClick={() => window.open('https://youtu.be/xvFZjo5PgG0?si=bgt7up0JES4a6-m5', '_blank')}
+                            onClick={() => window.open('https://submit.hackclub.com/neohack', '_blank')}
                         >
                             {allChecked ? 'Submit!' : 'Complete all items to submit'}
                         </button>

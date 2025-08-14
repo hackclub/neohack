@@ -89,7 +89,7 @@ const Guide = () => {
               <h3>Step 5: Time Tracking</h3>
               <p><strong>Using Hackatime:</strong></p>
               <ul>
-                <li>Aim for at least 5 hours of focused development time</li>
+                <li>Aim for at least 6 hours of focused development time</li>
               </ul>
               <p><strong>What Counts as Development Time:</strong></p>
               <div className="time-tracking">
@@ -122,7 +122,7 @@ const Guide = () => {
                     <p>Talk about <i>why</i> you made your plugin! I would love to read it in the README.md file (yes I will actually read it if you write!)</p>
                 </div>
                 <div className="tip-card">
-                    <p>Make the most out of these 5 hours! The whole point of this ysws is that you ship a meaningful project that <i>you're truly proud of.</i></p>
+                    <p>Make the most out of these 6 hours! The whole point of this ysws is that you ship a meaningful project that <i>you're truly proud of.</i></p>
                 </div>
                 <div className="tip-card">
                     <p>DON'T COMMIT FRAUD!!! Hack Club is a non-profit, and their funds are limited! So keep that in mind.</p>
